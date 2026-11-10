@@ -3,7 +3,7 @@
 Jogo da cobrinha (Snake) feito com **HTML, CSS e JavaScript**, sem bibliotecas externas.
 Projeto criado para praticar o fluxo do GitHub: repositório, branch, issue, pull request, fork, Actions e Pages.
 
-🔗 **Jogue online:** `https://SEU-USUARIO.github.io/jogo-da-cobrinha/`
+🔗 **Jogue online:** `https://matheuscerasi.github.io/jogo-da-cobrinha/`
 
 ## Como jogar
 
@@ -16,7 +16,7 @@ Projeto criado para praticar o fluxo do GitHub: repositório, branch, issue, pul
 ## Como rodar localmente
 
 ```bash
-git clone https://github.com/SEU-USUARIO/jogo-da-cobrinha.git
+git clone https://github.com/matheuscerasi/jogo-da-cobrinha.git
 cd jogo-da-cobrinha
 # abra o index.html no navegador (ou use a extensão Live Server do VS Code)
 ```
@@ -42,7 +42,7 @@ cd jogo-da-cobrinha
 ## Ideias de melhorias
 
 - [ ] Níveis de dificuldade (velocidade)
-- [ ] Controles por toque para celular
+- [x] Controles por toque para celular
 - [ ] Efeitos sonoros
 
 ## Licença

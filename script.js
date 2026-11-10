@@ -109,4 +109,17 @@ document.addEventListener("keydown", (e) => {
 document.getElementById("btn-pausar").addEventListener("click", alternarPausa);
 document.getElementById("btn-reiniciar").addEventListener("click", iniciar);
 
+const direcoesToque = {
+  cima: { x: 0, y: -1 },
+  baixo: { x: 0, y: 1 },
+  esquerda: { x: -1, y: 0 },
+  direita: { x: 1, y: 0 },
+};
+
+document.querySelectorAll("[data-dir]").forEach((botao) => {
+  botao.addEventListener("click", () => {
+    mudarDirecao(direcoesToque[botao.dataset.dir]);
+  });
+});
+
 iniciar();
