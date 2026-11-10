@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogo da Cobrinha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Jogo da Cobrinha</h1>
+    <div class="placar">
+      <span>Pontos: <strong id="pontos">0</strong></span>
+      <span>Recorde: <strong id="recorde">0</strong></span>
+    </div>
+    <canvas id="tabuleiro" width="400" height="400"></canvas>
+    <p id="mensagem">Pressione uma seta (ou WASD) para começar</p>
+    <div class="botoes">
+      <button id="btn-pausar">Pausar</button>
+      <button id="btn-reiniciar">Reiniciar</button>
+    </div>
+    <p class="ajuda">Setas ou WASD para mover · Espaço para pausar</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
