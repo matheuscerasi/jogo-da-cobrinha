@@ -54,3 +54,18 @@ button {
 
 button:hover { filter: brightness(1.1); }
 .ajuda { font-size: 0.85rem; opacity: 0.7; }
+
+.direcionais {
+  display: none;
+  margin-top: 8px;
+}
+
+.direcionais button {
+  width: 56px;
+  height: 56px;
+  font-size: 1.3rem;
+}
+
+@media (pointer: coarse) {
+  .direcionais { display: block; }
+}
